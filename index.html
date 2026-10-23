@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>TKN</title>
+  <title>TKN</title> 
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -39,13 +39,17 @@
       <div class="hero-copy">
 
         <p class="eyebrow">HANDMADE WITH LOVE · MADE TO LAST</p>
-        <h1>A little yarn,<br><em>A little magic</em></h1>
-        <p class="hero-text">Crochet flowers, thoughtful gifts, and tiny handmade things made just for you.</p>
+
+        <h1>A little yarn,<br><em> A little magic </em></h1>
+
+        <p class="hero-text">Flowers that never fade, made with love.</p>
+
         <div class="hero-actions">
+
           <a class="button button-dark" href="#custom-bouquet">Build your bouquet</a>
-          <a class="text-link" href="#shop">Explore the shop ↗</a>
+          <a class="text-link" href="#shop"> Explore the shop </a>
+
         </div>
-        <p class="tiny-note">Every stitch made with care ♡</p>
 
       </div>
 
@@ -67,74 +71,116 @@
     </section>
 
     <section class="section bouquet-section" id="custom-bouquet">
+
       <div class="section-heading">
+
         <p class="eyebrow">YOUR FLOWERS, YOUR WAY</p>
         <h2>Make your own bouquet<span>.</span></h2>
         <p>Pick your favourite stems and we'll add up the price for you.</p>
+
       </div>
+
       <div class="builder-layout">
+
         <div class="flower-list" id="flowerList"></div>
+
         <aside class="bouquet-summary">
+
           <div class="summary-top">
+
             <p class="eyebrow">YOUR CREATION</p>
             <h3>Your bouquet</h3>
             <p class="muted">A little bunch made by you.</p>
+
           </div>
+
           <div id="summaryItems" class="summary-items"><p class="empty-state">Your flowers will appear here 🌷</p></div>
+
           <div class="summary-options">
+
             <label for="wrapping">Wrapping</label>
+
             <select id="wrapping">
+
               <option value="0">No wrapping — AED 0</option>
               <option value="5" selected>Standard wrapping — AED 5</option>
               <option value="10">Premium wrapping — AED 10</option>
+
             </select>
+
             <label class="check-label"><input type="checkbox" id="giftCard"> Add a gift card (+ AED 5)</label>
+
             <label for="customerNote">Note for the maker (optional)</label>
+
             <textarea id="customerNote" rows="2" placeholder="Colours, occasion, or little details..."></textarea>
+
           </div>
+
           <div class="summary-total">
+
             <div><span>Flowers</span><strong id="flowerSubtotal">AED 0.00</strong></div>
             <div><span>Wrapping & extras</span><strong id="extrasTotal">AED 5.00</strong></div>
             <div class="grand-total"><span>Total</span><strong id="grandTotal">AED 5.00</strong></div>
+
           </div>
+
           <button class="button button-dark full-width" id="orderBouquet">Order this bouquet on WhatsApp</button>
+
           <p class="fine-print">Sample prices are placeholders. Update them in <code>script.js</code>.</p>
+
         </aside>
+
       </div>
+
     </section>
 
     <section class="section soft-section" id="ready-made">
+
       <div class="section-heading heading-row">
+
         <div><p class="eyebrow">READY WHEN YOU ARE</p><h2>Already made with love<span>.</span></h2></div>
         <p>Not in a customising mood? Pick a bouquet that's already been put together.</p>
+
       </div>
+
       <div class="product-grid" id="readyMadeGrid"></div>
+
     </section>
 
     <section class="section" id="shop">
+
       <div class="section-heading heading-row">
+
         <div><p class="eyebrow">THE LITTLE EXTRAS</p><h2>More handmade things<span>.</span></h2></div>
         <p>Small gifts, cute add-ons, and things to keep close.</p>
       </div>
+
       <div class="filter-row" id="shopFilters">
+
         <button class="filter active" data-filter="all">Everything</button>
         <button class="filter" data-filter="Keychains">Keychains</button>
         <button class="filter" data-filter="Scrunchies">Scrunchies</button>
         <button class="filter" data-filter="Gajray">Gajray</button>
         <button class="filter" data-filter="Bags">Bags</button>
+
       </div>
+
       <div class="product-grid" id="shopGrid"></div>
+
     </section>
 
     <section class="about-section" id="about">
+
       <div class="about-mark">h.</div>
       <div><p class="eyebrow">A SMALL SHOP WITH A BIG HEART</p><h2>Made slowly.<br><em>Kept forever.</em></h2></div>
       <div class="about-copy"><p>Every piece is handmade stitch by stitch, with a little extra love tucked into every loop. Thank you for supporting a small creative business.</p><a class="text-link" href="#custom-bouquet">Make something yours ↗</a></div>
+
     </section>
 
   </main>
 
   <footer><a class="brand" href="#home">hibah<span>.</span></a><p>Handmade with love ♡</p><p>© <span id="year"></span> Hibah Crochet</p></footer>
+  
   <script src="script.js"></script>
 
 </body>
