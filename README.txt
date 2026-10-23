@@ -1,16 +1,10 @@
-HIBAH CROCHET SHOP WEBSITE — QUICK START
+tkn website
 
 FILES
 - index.html  : website sections and content
 - style.css   : colours, layout, fonts, mobile styling
 - script.js   : flower prices, product catalogue, bouquet calculator, WhatsApp order
 - images/     : put your own product photos here
-
-HOW TO OPEN
-1. Extract the ZIP file.
-2. Open the extracted folder in VS Code.
-3. Open index.html in a browser. You can double-click index.html to preview it.
-4. Optional: use the VS Code extension "Live Server" and choose "Open with Live Server".
 
 CHANGE FLOWER PRICES
 1. Open script.js.

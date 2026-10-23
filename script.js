@@ -17,7 +17,7 @@ const READY_MADE = [
 ];
 
 const SHOP_PRODUCTS = [
-  { name: "Flower Keychain", category: "Keychains", description: "A tiny flower to take everywhere", price: 10, emoji: "🌼", colour: "#eee4c9" },
+  { name: "Swiss Roll", category: "Keychains", description: "A sweet treat", price: 15, emoji: "🌼", colour: "#eee4c9" },
   { name: "Heart Keychain", category: "Keychains", description: "A little handmade heart", price: 12, emoji: "♡", colour: "#ead5d8" },
   { name: "Crochet Scrunchie", category: "Scrunchies", description: "Soft, handmade, and cute", price: 12, emoji: "🎀", colour: "#e7d9e5" },
   { name: "Crochet Gajra", category: "Gajray", description: "A handmade floral accessory", price: 25, emoji: "🌸", colour: "#e5e8d8" },
@@ -122,7 +122,7 @@ document.getElementById("orderBouquet").addEventListener("click", () => {
     window.prompt("Copy your bouquet order message:", message);
     return;
   }
-  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, "_blank", "noopener");
+  window.open(`https://wa.me/${971562100365}?text=${encodeURIComponent(message)}`, "_blank", "noopener");
 });
 
 document.getElementById("shopFilters").addEventListener("click", event => {
