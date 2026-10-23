@@ -139,3 +139,27 @@ footer p { font-size: 10px; color: var(--muted); margin: 0; }
   .about-copy { grid-column: auto; }
   footer { flex-wrap: wrap; justify-content: space-between; }
 }
+
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  padding: 12px 17px;
+  border: 1px solid #193451;
+  border-radius: 30px;
+  color: #193451;
+  text-decoration: none;
+  font-size: 12px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.hero-buttons a:hover {
+  background: #193451;
+  color: #ffffff;
+}
