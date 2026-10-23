@@ -1,19 +1,13 @@
-/*
-  HIBAH CROCHET SHOP — EDIT YOUR PRODUCTS HERE
-  1. Change flower names and prices in FLOWERS.
-  2. Change ready-made bouquet and shop product names/prices below.
-  3. Add your WhatsApp number in WHATSAPP_NUMBER, using country code only.
-*/
-
-const WHATSAPP_NUMBER = ""; // Example UAE format: 9715XXXXXXXX (no +, spaces or dashes)
+const WHATSAPP_NUMBER = "971562100365";
 
 const FLOWERS = [
-  { id: "tulip", name: "Crochet tulip", price: 15, emoji: "🌷", colour: "#f0d9d6" },
-  { id: "rose", name: "Crochet rose", price: 20, emoji: "🌹", colour: "#ead4d5" },
-  { id: "daisy", name: "Crochet daisy", price: 12, emoji: "🌼", colour: "#f0e8c9" },
-  { id: "sunflower", name: "Crochet sunflower", price: 18, emoji: "🌻", colour: "#eee0b8" },
-  { id: "lavender", name: "Lavender stem", price: 10, emoji: "🪻", colour: "#e1d9ec" },
-  { id: "lily", name: "Crochet lily", price: 22, emoji: "🌸", colour: "#f0dcd9" }
+  { id: "rose", name: "Rose", price: 18, emoji: "🌷", colour: "#f0d9d6" },
+  { id: "lily", name: "Lily", price: 25, emoji: "🌹", colour: "#ead4d5" },
+  { id: "sunflower", name: "Sunflower", price: 25, emoji: "🌼", colour: "#f0e8c9" },
+  { id: "lavender", name: "Lavender", price: 15, emoji: "🌻", colour: "#eee0b8" },
+  { id: "calla", name: "Calla Lily", price: 18, emoji: "🪻", colour: "#e1d9ec" },
+  { id: "mini", name: "Mini", price: 8, emoji: "🌸", colour: "#f0dcd9" },
+  { id: "add", name: "Add on", price: 18, emoji: "🪻", colour: "#e1d9ec" }
 ];
 
 const READY_MADE = [
